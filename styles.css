@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+#intro {
+  color: #444;
+  font-weight: bold;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  background: white;
+  margin: 5px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
