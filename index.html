@@ -7,25 +7,45 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1 class="title">Welcome to My Webpage</h1>
+    <header id="main-header">
+      <h1 class="title">Welcome to My Website</h1>
     </header>
 
-    <main>
-      <p id="intro">
-        This is a simple webpage demonstrating how to apply CSS styles.
-      </p>
-
-      <h2>Features:</h2>
-      <ul class="features-list">
-        <li>Styled with CSS</li>
-        <li>Uses IDs and Classes</li>
-        <li>Basic layout</li>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <p class="description">This is a simple webpage styled with CSS.</p>
+      </section>
+
+      <section id="features">
+        <h2 class="section-title">Features</h2>
+        <ul class="feature-list">
+          <li class="feature-item">Styled using element selectors</li>
+          <li class="feature-item">Styled using class selectors</li>
+          <li class="feature-item">Styled using ID selectors</li>
+          <li class="feature-item">Responsive design with CSS</li>
+        </ul>
+      </section>
+
+      <section id="about">
+        <h2 class="section-title">About Us</h2>
+        <p class="info-text">
+          We create beautiful and responsive web designs using modern CSS
+          techniques.
+        </p>
+      </section>
     </main>
 
-    <footer>
-      <p>&copy; 2025 My Website</p>
+    <footer id="main-footer">
+      <p class="footer-text">© 2025 My Website</p>
     </footer>
   </body>
 </html>
